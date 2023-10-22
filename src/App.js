@@ -86,11 +86,11 @@ const App = () => {
           <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
         </label>
         <label>
-          ID:
+          CATEG:
           <input type="text" value={categ} onChange={(e) => setCateg(e.target.value)} />
         </label>
         <label>
-          ID:
+          EXP:
           <input type="text" value={exp} onChange={(e) => setExp(e.target.value)} />
         </label>
       </form>
